@@ -1,0 +1,13 @@
+{
+    "name": "Auto-play",
+    "short_name": "Auto-play",
+    "description": "An extension that allows you to auto play videos if you are watching movies on website that don't support it",
+    "version": "0.0.1",
+    "devtools_page": "devtools.html",
+    "manifest_version": 2,
+    "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["auto-play.js"]
+    }]
+  
+  }
